@@ -1,6 +1,6 @@
 {
   "name": "sort-array-by",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Takes an array and sorts it by the values returned from the given function.",
   "keywords": [
     "sort",

@@ -3,7 +3,7 @@ var sortBy = require('./')
 
 test('sortBy', function (t) {
   t.deepEqual(
-    sortBy(v => v.name, [
+    sortBy(function (v) { return v.name }, [
       { name: 'Andy', id: 1 },
       { name: 'Indy', id: 2 },
       { name: 'Jill', id: 3 },
@@ -20,7 +20,7 @@ test('sortBy', function (t) {
   )
 
   t.deepEqual(
-    sortBy(v => v.id, [
+    sortBy(function (v) { return v.id }, [
       { name: 'Andy', id: 1 },
       { name: 'Andy', id: 4 },
       { name: 'Indy', id: 2 },

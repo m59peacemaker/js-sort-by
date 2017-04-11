@@ -36,5 +36,5 @@ sortBy(v => v.name, [
 - `getValue(item)`
   - `item` an item from the array
   - `=> value` the value to compare to determine sort order
-- `array: []` the array to sort
+- `array` the array to sort
 - `=> array` a sorted array
